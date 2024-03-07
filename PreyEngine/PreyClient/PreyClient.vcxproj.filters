@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\EntryPoint">
+      <UniqueIdentifier>{d187ee06-7492-4c66-afbf-baebcb2fdc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{ddb7fd58-93bb-4021-b73d-e01efdccad21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene">
+      <UniqueIdentifier>{924c1458-f5a3-4158-9912-48a576524a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\Stage1">
+      <UniqueIdentifier>{35a7e81b-44ef-404f-a44c-0eb42ef6f52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\Stage2">
+      <UniqueIdentifier>{64091031-ffc5-40ba-b3f1-8442a0d4cbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Dog">
+      <UniqueIdentifier>{6a4662f6-d858-4995-ab3e-2dcefbbc57e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EntryPoint\GameProcess">
+      <UniqueIdentifier>{c495004d-d0d0-47ae-b59d-f5d574216de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent">
+      <UniqueIdentifier>{eba74619-3827-40eb-8c2a-c2665114b767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\DrawType">
+      <UniqueIdentifier>{78e54223-64e4-4370-8e43-f92fa8138e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Camera">
+      <UniqueIdentifier>{402bdfca-ae53-4fee-9cec-6506fd873eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\DogFSM">
+      <UniqueIdentifier>{7dc829fd-bc96-4b45-ab03-27ada7ba5e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Animation">
+      <UniqueIdentifier>{a68610af-b0a9-409a-b735-451591838821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI">
+      <UniqueIdentifier>{c04c1ceb-fd13-4787-b4c0-9580f0b7506d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction">
+      <UniqueIdentifier>{4875f431-163c-461c-a5ae-ef2e7a4e494a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction">
+      <UniqueIdentifier>{493f2c29-3a54-4cde-9bd3-4ed56c07739a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Ball">
+      <UniqueIdentifier>{e966ba13-2f74-46fa-8219-aef07f8fe9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{cb5c00e7-e5ca-4678-b16d-1b4c898e7dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\WallObject">
+      <UniqueIdentifier>{b52e028a-55d5-491f-8441-e70ff714e516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Bed">
+      <UniqueIdentifier>{5e5003a3-94d2-4be2-b1e3-059a1ae12b54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\DogCushion">
+      <UniqueIdentifier>{cd2e2ad5-edd0-4df4-8cdf-fd8dd04dd11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\BigBall">
+      <UniqueIdentifier>{58edd28f-4551-418f-b584-7efa1b77ed77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Closet">
+      <UniqueIdentifier>{63166d63-2e63-40f8-940c-3796fbd6c3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\RopeFront">
+      <UniqueIdentifier>{a69e1eb8-9061-4a31-b6c1-124352c9207a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\RopeBack">
+      <UniqueIdentifier>{0d46dcc1-6382-4b89-9f1a-5b0798be40dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\BedBlock">
+      <UniqueIdentifier>{cf238cb5-38b2-4aaf-8cf6-9c4ff0798276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\BedShelf">
+      <UniqueIdentifier>{7681b920-505b-4b43-8050-f3fef169e438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Clock">
+      <UniqueIdentifier>{bfbc28cf-f84b-4987-9141-ed944c0a2482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Desk">
+      <UniqueIdentifier>{f217c0fe-92bb-422c-b432-70c06e096063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Chair">
+      <UniqueIdentifier>{263f6fc3-7346-45cc-ad93-2b346b16b446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Doll">
+      <UniqueIdentifier>{293a268d-ec72-4821-84ed-d9e86fb3cc46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Trashcan">
+      <UniqueIdentifier>{1fa97af2-e772-437a-90e3-50d3b3ac09ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Chewbone">
+      <UniqueIdentifier>{6b453c07-2484-44e1-ba63-30da6c741911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\BackGround">
+      <UniqueIdentifier>{f4b89e95-fd96-4397-8aa6-52470c6ba2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Door">
+      <UniqueIdentifier>{4206b6d2-2263-4e0b-83df-4cc304c3df56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\ShoeRack">
+      <UniqueIdentifier>{08a4c5dc-70c2-425c-b19c-683e5fa36091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\ShoesL">
+      <UniqueIdentifier>{b4332f8f-b1ce-4dd7-b76e-af86ae564adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\ShoesR">
+      <UniqueIdentifier>{148a3d31-94fb-4464-861c-571d611bd0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Slippers">
+      <UniqueIdentifier>{f302f152-d2ae-46be-80f5-0f6227d43dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\ShelfLiving">
+      <UniqueIdentifier>{e0b762cf-0d3c-400c-8a20-38296719a768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Sofa">
+      <UniqueIdentifier>{a43a6632-3013-48c4-82a3-0cabebb57467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Lighting">
+      <UniqueIdentifier>{41a791ca-e03f-4a66-b20a-e3f3814ef075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Pot">
+      <UniqueIdentifier>{564d2db7-fd49-4f5d-b1ad-73fe0d5054da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Cabinet">
+      <UniqueIdentifier>{41d87f59-8dc0-4b74-9a43-0f6e64fc088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\DisplayCupBoard">
+      <UniqueIdentifier>{886c1f91-62bf-4286-8ed1-6d97975b805e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Calendar">
+      <UniqueIdentifier>{dcda05d0-ee2e-4503-ae4c-b59bcc9ca780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Table">
+      <UniqueIdentifier>{ca330fb4-c63f-470b-b7f5-40a8b21dba8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script">
+      <UniqueIdentifier>{807bafbd-1aa5-41f7-93ea-5e1af8f8e622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\Dog">
+      <UniqueIdentifier>{05f78e43-01d8-4c93-8a75-5919dd7d7532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\QuestManager">
+      <UniqueIdentifier>{089e346f-198c-4b41-869d-c7834cfb5196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Cup">
+      <UniqueIdentifier>{4297a630-e3fc-4d03-b382-e1af108b81ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem">
+      <UniqueIdentifier>{1a30d7d7-0792-4512-934a-de19004a8604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Cup">
+      <UniqueIdentifier>{c570a6cd-61f8-4e6f-b879-52b2a0cc591c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\ChewBone">
+      <UniqueIdentifier>{307e7a9a-e685-4a82-930a-f6f4d190a72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\LoadMapData">
+      <UniqueIdentifier>{abfca2e9-79e2-4754-9db2-00cdc20a355a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Soju">
+      <UniqueIdentifier>{cbb7739c-4dc1-4889-b638-be26ff4f6fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Leash">
+      <UniqueIdentifier>{0b495819-4c77-4530-a2aa-105dfb98ca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\Stage3">
+      <UniqueIdentifier>{59703028-3fe9-4743-854b-7ff0d5772ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\Stage4">
+      <UniqueIdentifier>{ce7f40fe-a76a-4353-9b3a-fe83a32bdab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Cloths">
+      <UniqueIdentifier>{003bb515-beca-4e4c-bc39-d07d6a3e78a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\paper">
+      <UniqueIdentifier>{5290029a-4284-4aec-b02b-9e65a683b176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\MainScene">
+      <UniqueIdentifier>{a7fde153-5f45-46dc-9aa2-f86e6b7ff559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\CutScene">
+      <UniqueIdentifier>{a0de5b80-d5aa-4a56-9040-96de91d42258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\Dog\DogSight">
+      <UniqueIdentifier>{8c361ca6-e950-43b8-9fa5-826536e64be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Doll">
+      <UniqueIdentifier>{afa6051b-3989-47f8-a207-c7d917777cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Ball">
+      <UniqueIdentifier>{f89a8698-d5fc-42d4-81e3-7bdd1dc62bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\Bowl">
+      <UniqueIdentifier>{cd62728e-fc48-4a40-b8fb-e3331c0f692c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Calender">
+      <UniqueIdentifier>{4c181ed7-ae12-401d-931b-ec6b24ed7640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Soju">
+      <UniqueIdentifier>{6bec44e9-48ec-44f8-89ec-046515c33c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Bowl">
+      <UniqueIdentifier>{de18c3e2-2d70-4ef7-bb96-defaeb9213c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Interaction\paperfile">
+      <UniqueIdentifier>{1488dfee-d518-40fa-9cbd-064da5006539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI\ImagineCutScene">
+      <UniqueIdentifier>{a527ef69-0bfc-43f7-baec-b22125a20e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI\MiniGame">
+      <UniqueIdentifier>{f6716632-7355-4526-848c-e378d6511a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Human">
+      <UniqueIdentifier>{05636860-a297-4803-9821-86bb18f29de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameComponent\Script\QuestItem\Human">
+      <UniqueIdentifier>{6357c4c2-30d1-467f-83e1-98d0f79f939a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\GameManager">
+      <UniqueIdentifier>{b7296553-d41e-484f-9745-b56f05e29498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\StageSelect">
+      <UniqueIdentifier>{68f493ac-082e-4e07-acd9-4a6e19d8861e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI\Album">
+      <UniqueIdentifier>{7e223f41-5d16-46c9-9834-172a9a4ffc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\AudioManager">
+      <UniqueIdentifier>{4111bda4-1019-4648-927b-2b45f5cc809c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider">
+      <UniqueIdentifier>{9c422ad1-f67a-4c8c-b3fb-740a000248b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\DeskCollider">
+      <UniqueIdentifier>{4c9af406-6067-42fa-9f6f-c90b30e54bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\ClosetCollider">
+      <UniqueIdentifier>{e8bd8f19-7909-4afb-92ba-bc82212e0dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\ClockCollider">
+      <UniqueIdentifier>{fe8603ad-87d2-43bc-b87e-188a985816d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\BedCollider">
+      <UniqueIdentifier>{a1426532-df03-44bb-a3b0-a0a9a4ecd658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameScene\CutScene\Webtoon">
+      <UniqueIdentifier>{b0ccbb8b-ff76-4bbc-b1c7-e7ecac785f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\ChairCollider">
+      <UniqueIdentifier>{5111eaeb-878b-49c6-9feb-3c91d86e9a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\WallCollider">
+      <UniqueIdentifier>{34343d62-52c7-4741-a3eb-5df45a81e9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\DisplayCupBoard">
+      <UniqueIdentifier>{dcf4e293-81ce-4aa5-a9d7-2c4fc666009e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\TableCollider">
+      <UniqueIdentifier>{46fc2930-fa12-4bfd-9377-cdd5d28836b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Collider\2Wall">
+      <UniqueIdentifier>{59b84e67-1293-45ae-aeef-a8b6f19ddd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\Noninteraction\Table4Stage">
+      <UniqueIdentifier>{1eac7774-7097-4fc8-9c67-5de68b612651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI\StageStart">
+      <UniqueIdentifier>{e7319182-aba0-42b7-9ede-c7735df437c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject\UI\GetSoul">
+      <UniqueIdentifier>{aa86f1a2-678e-4161-9caa-7e1b33b2d098}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>소스 파일\EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>소스 파일\EntryPoint\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>소스 파일\GameScene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawType.cpp">
+      <Filter>소스 파일\GameComponent\DrawType</Filter>
+    </ClCompile>
+    <ClCompile Include="DogFSM.cpp">
+      <Filter>소스 파일\GameComponent\DogFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraModule.cpp">
+      <Filter>소스 파일\GameComponent\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>소스 파일\GameObject\Dog</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>소스 파일\Manager\AudioManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\GameComponent\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>소스 파일\GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMapData.cpp">
+      <Filter>소스 파일\Manager\LoadMapData</Filter>
+    </ClCompile>
+    <ClCompile Include="WallObject.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\WallObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bed.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Bed</Filter>
+    </ClCompile>
+    <ClCompile Include="DogCushion.cpp">
+      <Filter>소스 파일\GameObject\Interaction\DogCushion</Filter>
+    </ClCompile>
+    <ClCompile Include="Closet.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Closet</Filter>
+    </ClCompile>
+    <ClCompile Include="BigBall.cpp">
+      <Filter>소스 파일\GameObject\Interaction\BigBall</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeFront.cpp">
+      <Filter>소스 파일\GameObject\Interaction\RopeFront</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeBack.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\RopeBack</Filter>
+    </ClCompile>
+    <ClCompile Include="BedBlock.cpp">
+      <Filter>소스 파일\GameObject\Interaction\BedBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="BedShelf.cpp">
+      <Filter>소스 파일\GameObject\Interaction\BedShelf</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Desk.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Desk</Filter>
+    </ClCompile>
+    <ClCompile Include="Chair.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Chair</Filter>
+    </ClCompile>
+    <ClCompile Include="Doll.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Doll</Filter>
+    </ClCompile>
+    <ClCompile Include="Trashcan.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Trashcan</Filter>
+    </ClCompile>
+    <ClCompile Include="Chewbone.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Chewbone</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoeRack.cpp">
+      <Filter>소스 파일\GameObject\Interaction\ShoeRack</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoesL.cpp">
+      <Filter>소스 파일\GameObject\Interaction\ShoesL</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoesR.cpp">
+      <Filter>소스 파일\GameObject\Interaction\ShoesR</Filter>
+    </ClCompile>
+    <ClCompile Include="Slippers.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Slippers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShelfLiving.cpp">
+      <Filter>소스 파일\GameObject\Interaction\ShelfLiving</Filter>
+    </ClCompile>
+    <ClCompile Include="Sofa.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Sofa</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Pot.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Pot</Filter>
+    </ClCompile>
+    <ClCompile Include="Cabinet.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Cabinet</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCupBoard.cpp">
+      <Filter>소스 파일\GameObject\Interaction\DisplayCupBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Calendar.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="DogScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\Dog</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>소스 파일\GameScene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestManager.cpp">
+      <Filter>소스 파일\Manager\QuestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Cup.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Cup</Filter>
+    </ClCompile>
+    <ClCompile Include="CupScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Cup</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundWall.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundWindow.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ChewBoneScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\ChewBone</Filter>
+    </ClCompile>
+    <ClCompile Include="Soju.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Soju</Filter>
+    </ClCompile>
+    <ClCompile Include="Leash.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Leash</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>소스 파일\GameScene\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4.cpp">
+      <Filter>소스 파일\GameScene\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloths.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Cloths</Filter>
+    </ClCompile>
+    <ClCompile Include="Paper.cpp">
+      <Filter>소스 파일\GameObject\Interaction\paper</Filter>
+    </ClCompile>
+    <ClCompile Include="CutScene.cpp">
+      <Filter>소스 파일\GameScene\CutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\GameScene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="DogSight.cpp">
+      <Filter>소스 파일\GameObject\Dog</Filter>
+    </ClCompile>
+    <ClCompile Include="DogSightScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\Dog\DogSight</Filter>
+    </ClCompile>
+    <ClCompile Include="DollScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Doll</Filter>
+    </ClCompile>
+    <ClCompile Include="BallScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Bowl.cpp">
+      <Filter>소스 파일\GameObject\Interaction\Bowl</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\GameObject\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="CalenderPaper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LeashScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CalenderScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Calender</Filter>
+    </ClCompile>
+    <ClCompile Include="SojuScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Soju</Filter>
+    </ClCompile>
+    <ClCompile Include="BowlScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Bowl</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PaperFile.cpp">
+      <Filter>소스 파일\GameObject\Interaction\paperfile</Filter>
+    </ClCompile>
+    <ClCompile Include="ImagineCutScene.cpp">
+      <Filter>소스 파일\GameObject\UI\ImagineCutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGame.cpp">
+      <Filter>소스 파일\GameObject\UI\MiniGame</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanScript.cpp">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>소스 파일\GameScene\StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Album.cpp">
+      <Filter>소스 파일\GameObject\UI\Album</Filter>
+    </ClCompile>
+    <ClCompile Include="DeskCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\DeskCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosetCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ClosetCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="BedCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\BedCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ClockCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Webtoon.cpp">
+      <Filter>소스 파일\GameScene\CutScene\Webtoon</Filter>
+    </ClCompile>
+    <ClCompile Include="ChairCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ChairCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\WallCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCupBoardCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\DisplayCupBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCollider2Stage.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\2Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCollider2Stage2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TableCollider4.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Table4Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCollider2.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\WallCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="TableCollider.cpp">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\TableCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayCupCollider4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PotCollider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BedShelfCollider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chair3Collider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StageStart.cpp">
+      <Filter>소스 파일\GameObject\UI\StageStart</Filter>
+    </ClCompile>
+    <ClCompile Include="DollCollider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSoul.cpp">
+      <Filter>소스 파일\GameObject\UI\GetSoul</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>소스 파일\EntryPoint\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>소스 파일\GameScene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawType.h">
+      <Filter>소스 파일\GameComponent\DrawType</Filter>
+    </ClInclude>
+    <ClInclude Include="DogFSM.h">
+      <Filter>소스 파일\GameComponent\DogFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraModule.h">
+      <Filter>소스 파일\GameComponent\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>소스 파일\GameObject\Dog</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>소스 파일\Manager\AudioManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>소스 파일\GameComponent\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>소스 파일\GameObject\Interaction\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>소스 파일\GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMapData.h">
+      <Filter>소스 파일\Manager\LoadMapData</Filter>
+    </ClInclude>
+    <ClInclude Include="WallObject.h">
+      <Filter>소스 파일\GameObject\Noninteraction\WallObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bed.h">
+      <Filter>소스 파일\GameObject\Interaction\Bed</Filter>
+    </ClInclude>
+    <ClInclude Include="DogCushion.h">
+      <Filter>소스 파일\GameObject\Interaction\DogCushion</Filter>
+    </ClInclude>
+    <ClInclude Include="BigBall.h">
+      <Filter>소스 파일\GameObject\Interaction\BigBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Closet.h">
+      <Filter>소스 파일\GameObject\Interaction\Closet</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeFront.h">
+      <Filter>소스 파일\GameObject\Interaction\RopeFront</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeBack.h">
+      <Filter>소스 파일\GameObject\Noninteraction\RopeBack</Filter>
+    </ClInclude>
+    <ClInclude Include="BedBlock.h">
+      <Filter>소스 파일\GameObject\Interaction\BedBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="BedShelf.h">
+      <Filter>소스 파일\GameObject\Interaction\BedShelf</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>소스 파일\GameObject\Interaction\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Desk.h">
+      <Filter>소스 파일\GameObject\Interaction\Desk</Filter>
+    </ClInclude>
+    <ClInclude Include="Chair.h">
+      <Filter>소스 파일\GameObject\Interaction\Chair</Filter>
+    </ClInclude>
+    <ClInclude Include="Doll.h">
+      <Filter>소스 파일\GameObject\Interaction\Doll</Filter>
+    </ClInclude>
+    <ClInclude Include="Trashcan.h">
+      <Filter>소스 파일\GameObject\Interaction\Trashcan</Filter>
+    </ClInclude>
+    <ClInclude Include="Chewbone.h">
+      <Filter>소스 파일\GameObject\Interaction\Chewbone</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>소스 파일\GameObject\Interaction\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoeRack.h">
+      <Filter>소스 파일\GameObject\Interaction\ShoeRack</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoesL.h">
+      <Filter>소스 파일\GameObject\Interaction\ShoesL</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoesR.h">
+      <Filter>소스 파일\GameObject\Interaction\ShoesR</Filter>
+    </ClInclude>
+    <ClInclude Include="Slippers.h">
+      <Filter>소스 파일\GameObject\Interaction\Slippers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShelfLiving.h">
+      <Filter>소스 파일\GameObject\Interaction\ShelfLiving</Filter>
+    </ClInclude>
+    <ClInclude Include="Sofa.h">
+      <Filter>소스 파일\GameObject\Interaction\Sofa</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Pot.h">
+      <Filter>소스 파일\GameObject\Interaction\Pot</Filter>
+    </ClInclude>
+    <ClInclude Include="Cabinet.h">
+      <Filter>소스 파일\GameObject\Interaction\Cabinet</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCupBoard.h">
+      <Filter>소스 파일\GameObject\Interaction\DisplayCupBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Calendar.h">
+      <Filter>소스 파일\GameObject\Interaction\Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="DogScript.h">
+      <Filter>소스 파일\GameComponent\Script\Dog</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>소스 파일\GameScene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>소스 파일\GameObject\Interaction\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestManager.h">
+      <Filter>소스 파일\Manager\QuestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Cup.h">
+      <Filter>소스 파일\GameObject\Interaction\Cup</Filter>
+    </ClInclude>
+    <ClInclude Include="CupScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Cup</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundWall.h">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundWindow.h">
+      <Filter>소스 파일\GameObject\Noninteraction\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ChewBoneScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\ChewBone</Filter>
+    </ClInclude>
+    <ClInclude Include="Soju.h">
+      <Filter>소스 파일\GameObject\Interaction\Soju</Filter>
+    </ClInclude>
+    <ClInclude Include="Leash.h">
+      <Filter>소스 파일\GameObject\Interaction\Leash</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>소스 파일\GameScene\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4.h">
+      <Filter>소스 파일\GameScene\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloths.h">
+      <Filter>소스 파일\GameObject\Interaction\Cloths</Filter>
+    </ClInclude>
+    <ClInclude Include="Paper.h">
+      <Filter>소스 파일\GameObject\Interaction\paper</Filter>
+    </ClInclude>
+    <ClInclude Include="CutScene.h">
+      <Filter>소스 파일\GameScene\CutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>소스 파일\GameScene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DogSight.h">
+      <Filter>소스 파일\GameObject\Dog</Filter>
+    </ClInclude>
+    <ClInclude Include="DogSightScript.h">
+      <Filter>소스 파일\GameComponent\Script\Dog\DogSight</Filter>
+    </ClInclude>
+    <ClInclude Include="DollScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Doll</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="BallScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Bowl.h">
+      <Filter>소스 파일\GameObject\Interaction\Bowl</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\GameObject\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="CalenderPaper.h" />
+    <ClInclude Include="LeashScript.h" />
+    <ClInclude Include="CalenderScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Calender</Filter>
+    </ClInclude>
+    <ClInclude Include="SojuScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Soju</Filter>
+    </ClInclude>
+    <ClInclude Include="BowlScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Bowl</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="PaperFile.h">
+      <Filter>소스 파일\GameObject\Interaction\paperfile</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagineCutScene.h">
+      <Filter>소스 파일\GameObject\UI\ImagineCutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGame.h">
+      <Filter>소스 파일\GameObject\UI\MiniGame</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanScript.h">
+      <Filter>소스 파일\GameComponent\Script\QuestItem\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>소스 파일\GameScene\StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Album.h">
+      <Filter>소스 파일\GameObject\UI\Album</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\DeskCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosetCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ClosetCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ClockCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Webtoon.h">
+      <Filter>소스 파일\GameScene\CutScene\Webtoon</Filter>
+    </ClInclude>
+    <ClInclude Include="BedCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\BedCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="ChairCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\ChairCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\WallCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCupBoardCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\DisplayCupBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCollider2Stage.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\2Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCollider2Stage2.h" />
+    <ClInclude Include="TableCollider4.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Table4Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCollider2.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\WallCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="TableCollider.h">
+      <Filter>소스 파일\GameObject\Noninteraction\Collider\TableCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall4.h" />
+    <ClInclude Include="DisplayCupCollider4.h" />
+    <ClInclude Include="PotCollider.h" />
+    <ClInclude Include="BedShelfCollider.h" />
+    <ClInclude Include="Chair3Collider.h" />
+    <ClInclude Include="StageStart.h">
+      <Filter>소스 파일\GameObject\UI\StageStart</Filter>
+    </ClInclude>
+    <ClInclude Include="DollCollider.h" />
+    <ClInclude Include="GetSoul.h">
+      <Filter>소스 파일\GameObject\UI\GetSoul</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{ecb306a3-42a6-4103-a989-5a2151d77cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{7b7cad9e-7cb6-4616-b22b-c1f5a89f8808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathManager">
+      <UniqueIdentifier>{6005dfd3-5652-4c0d-b416-6740dfbc438f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>PathManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>PathManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

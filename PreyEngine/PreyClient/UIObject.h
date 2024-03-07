@@ -1,0 +1,63 @@
+#pragma once
+#include "Entity.h"
+
+class ManagerSet;
+
+//플레이 화면에 그려지게 될 기본적인 UI들의 타입을 정해둔다.
+enum class UITYPE
+{
+	TITLE,
+	TITLECONTRACT,
+	EXIT_BUTTON,
+	EXIT_BUTTON2,
+	CREDITBUTTON,
+	CREDITBUTTON2,
+	CREDIT,
+	STAMP,
+	SETTING,
+	SETTING2,
+	KEYGUIDE,
+	KEYGUIDE2,
+	MISSIONPAPER,
+	MISSIONPAPER2,
+	MISSIONPAPER3,
+	MISSIONPAPER4,
+	CHECK1,
+	CHECK2,
+	CHECK3,
+	CHECK4,
+	CHECK5,
+	CHECK6,
+	MENUBOARD,
+	MENUALBUM,
+	MENUALBUM2,
+	MENUGUIDE,
+	MENUGUIDE2,
+	MENUGUIDEBOARD,
+	MENUGAMEEXIT,
+	MENUGAMEEXIT2,
+	CLOSE,
+	CLOSE2,
+	TITLESTART,
+	TITLESTART2,
+	MISSIONPAPERPIECE1,
+	MISSIONPAPERPIECE2,
+	MISSIONPAPERPIECE3,
+	MISSIONPAPERPIECE4_1,
+	MISSIONPAPERPIECE4_2,
+};
+
+class UIObject : public Entity
+{
+public:
+	UIObject(std::string _name, ManagerSet* _managerSet, OBJECT_TYPE _type, UITYPE _uiType);
+	virtual ~UIObject();
+
+public:
+	void DrawUIType(UITYPE _uiType);
+	
+
+private:
+	ManagerSet* managerSet;
+};
+
